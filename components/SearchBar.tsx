@@ -6,7 +6,7 @@ import { on } from 'events';
 interface Props {
 	placeholder: string;
 	onPress?: () => void;
-	value: string;
+	value?: string;
 	onChangeText?: (text: string) => void;
 }
 const SearchBar = ({ placeholder, onPress, value, onChangeText }: Props) => {
